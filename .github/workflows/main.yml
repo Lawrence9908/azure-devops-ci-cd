@@ -7,11 +7,11 @@ on:
     branches: [master]
 
 jobs:
-  build: 
+  build:
     runs-on: ubuntu-latest
     
-  steps:
-  - uses: actions/checkout@v2
-  - name: Run make hello
-    run: make hello
-    
+    steps:
+    - uses: actions/checkout@v2
+    - name: Run make hello
+      run: make hello
+
