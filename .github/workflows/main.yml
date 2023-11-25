@@ -12,6 +12,6 @@ jobs:
     
     steps:
     - uses: actions/checkout@v2
-    - name: Run make hello
+    - name: Run make command
       run: make hello
 
