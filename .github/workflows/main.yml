@@ -8,9 +8,10 @@ on:
 
 jobs:
   build: 
-    runs_on: ubuntu-latest
+    runs-on: ubuntu-latest
+    
   steps:
-    - uses: actions/checkout@v2
-    - name: Run make hello
-      run: make hello
+   - uses: actions/checkout@v2
+   - name: Run make hello
+     run: make hello
     
