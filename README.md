@@ -1,2 +1,2 @@
 # azure-devops-ci-cd
-## Azure devops CI/CD first project
+[![Python CI](https://github.com/Lawrence9908/azure-devops-ci-cd/actions/workflows/main.yml/badge.svg)](https://github.com/Lawrence9908/azure-devops-ci-cd/actions/workflows/main.yml)
